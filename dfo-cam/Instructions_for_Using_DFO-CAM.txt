@@ -1,0 +1,13 @@
+## Introduction
+
+This is a PyTorch-based implementation of our custom visual explanation method `DFO-CAM`, which extends the [pytorch-grad-cam](https://github.com/jacobgil/pytorch-grad-cam) framework.
+
+`DFO-CAM` is a model-specific visual explanation technique that optimizes channel weights using both forward and inverted feature representations. It inherits from `BaseCAM` and can be used in the same way as other CAM methods (e.g., Grad-CAM).
+
+## Dependencies
+
+- Python >= 3.7
+- PyTorch >= 1.8
+- torchvision
+- OpenCV (for visualization)
+- matplotlib (optional, for plots)
